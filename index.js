@@ -122,10 +122,13 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window binding which will return all available objects in the Window or global scope.
+
+  2. Implicit binding when invoke it is refered to what is to the left of the dot
+
+  3. Binding construct a new object and 'this' basically points to it
+
+  4. prototype and constructor functions construct other object give you the ability to pass methods across objects.
 */
 
 
